@@ -1,5 +1,5 @@
 class Comment < ApplicationRecord
-  belongs_to :blog
+  belongs_to :blogs
 
   validates :content, presence: true
 end
